@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antecessor e Sucessor</title>
+    <style>
+        button{
+            height: 100px;
+            width: 200px;
+            background-color: brown;
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Antes e Depois</h1>
+    <button >Antecessor e sucessor</button>
+
+    <script>
+      addEventListener('click', clicar)
+        
+    function clicar() {
+        var n1 = Number (prompt('Digite um número qualquer')) 
+        var ante = n1 - 1
+        var suce = n1 + 1 
+       
+        alert(`Antes de ${n1}, temos ${ante}. Depois de ${n1}, temos ${suce}`)
+        }
+
+
+    </script>
+</body>
+</html>
